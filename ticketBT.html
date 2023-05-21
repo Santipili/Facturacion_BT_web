@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ticket/Factura electronica Mutual Buona Terra</title>
+	<link rel="stylesheet" type="text/css" href="ticketBT.css">
+</head>
+
+<body>
+
+<div class="ticket-factura">
+
+    <div class="primer-bloque">
+        
+        <div class="mutual-description">
+            <img id="company-icon" alt="Logo Mutual Buona Terra" src="logoBT.png">
+            <p>Mutual Buona Terra</p>
+            <p>Matricula INAES Nº 3136</p>
+            <p>San Lorenzo 3864, Mar del Plata</p>
+            <p>7600 Buenos Aires, Argentina</p>
+            <p>CUIT N 30-71707166-9</p>
+            <p>IVA EXENTO</p>
+        </div>
+
+        <div class="ticket-type" >
+            <p class="frase1">Comprobante</p>
+            <p class="frase1">Ticket </p>
+            <p id="original">ORIGINAL</p>
+            <p class="frase2">Res. Gral. Nº 1415 AFIP</p>
+            <p class="frase2">Anexo - Apartado A - Inciso K</p>
+        </div>
+
+        <div class="ticket-data">
+            <p id="ticket-number">Nº:<span></span></p>
+            <p id="ticket-date">FECHA:<span></span></p> 
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="buyer-data">
+
+        <div >
+        <p style="float:left">Señor/a:<span></span></p> 
+        <p style="float:left">Nº de Socio:<span></span></p>
+        </div>
+
+        <p style="clear:both; display:block;">Domicilio:<span></span></p>
+        <p >CUIT:<span></span></p>
+
+        <div >
+        
+        <p style="display:inline">Condicion del IVA:<span></span></p> 
+        <p style="display:inline">Condicion de Venta:<span></span></p>
+        </div>
+        
+    </div>
+
+    <hr>
+
+    <div class="products">
+        <ul id="products-title">
+            <li id="cuantity">Cantidad</li>
+            <li id="data">Descripcion</li>
+            <li id="price">Precio x Unidad</li>
+            <li id="discount">Dcto.</li>
+            <li id="subtotal">Subtotal ($)</li>
+        </ul>
+    </div>
+
+    <p id="total">TOTAL<span></span></p>
+
+    <hr>
+
+    <!-- la imagen es de la firma y deberia tener un boton donde pregunta si desea firmar -->
+    <div class="sign">
+        <img>
+        <p>Firma y Aclaracion</p>
+    </div>
+
+</div>
+
+</body>
+
+<script type="text/javascript" src="ticketBT.js"></script> 
+
+</html>

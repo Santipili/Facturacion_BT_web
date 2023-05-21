@@ -1,0 +1,92 @@
+
+.ticket-factura{
+    width: 900px;
+    margin: 20px auto;
+    padding: 5px;
+    border:1px double black;
+}
+
+.primer-bloque{
+    display: grid; 
+    grid-template-columns: 330px 320px 330px; 
+    height:200px;
+}
+
+#company-icon{
+    margin-left:15px;
+    margin-top: 30px;
+    height:6%; 
+    width: auto;
+}
+.mutual-description p{
+    font-size: 12px;
+    text-align: left;
+    margin-left:50px;
+    line-height: 0.3;
+}
+
+.ticket-type{
+    text-align:center; 
+    border: 2px double black; 
+    height: fit-content; 
+    width: 170px;
+    margin: 30px;
+    margin-left: 30px;
+    
+}
+#original{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 0.1;
+}
+.ticket-type .frase1{
+    font-size: 17px;
+    line-height: 0.3;
+    font-weight: bold;
+}
+.ticket-type .frase2{
+    font-size: 10px;
+    line-height: 0.1;
+}
+
+.ticket-data{
+
+}
+
+.products{
+    margin-left: 0px;
+    background-color: blue;
+}
+
+.products ul{
+    list-style-type: none;
+} 
+
+.products li{
+    
+    float: left;
+    width: 100px;
+    height: 35px;
+    /* background-color: lightblue; */
+    border: 1px double black;
+    text-align: center;
+}
+
+#cuantity{
+    width:60px;
+}
+#data{
+    width:400px;
+}
+#price{
+    width:130px;
+}
+#subtotal{
+    width:120px;
+}
+#total{
+    text-align: right; 
+    display: block;
+    clear: both;
+    margin-right:130px;
+}
